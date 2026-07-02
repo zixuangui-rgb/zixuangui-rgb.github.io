@@ -98,7 +98,7 @@ a:hover{border-bottom-color:var(--accent);opacity:.85}
 
 /* ── project ── */
 .proj{margin-bottom:0;padding:32px 0;border-top:1px solid var(--rule)}
-.proj:first-child{border-top:none;padding-top:0}
+.section-label + .proj{border-top:none;padding-top:0}
 .proj-head{
   display:flex;
   align-items:baseline;
@@ -188,8 +188,8 @@ a:hover{border-bottom-color:var(--accent);opacity:.85}
 <div class="name-block">
   <h1>Zixuan Gui<span class="zh">桂子轩</span></h1>
   <div class="links">
-    <a href="mailto:guizx25@mails.tsinghua.edu.cn">email</a>
-    <a href="https://www.linkedin.com/in/%E5%AD%90%E8%BD%A9-%E6%A1%82-0ba7943b3/?locale=en">linkedin</a>
+    <a href="mailto:guizx25@mails.tsinghua.edu.cn">Email</a>
+    <a href="https://www.linkedin.com/in/%E5%AD%90%E8%BD%A9-%E6%A1%82-0ba7943b3/?locale=en">LinkedIn</a>
   </div>
 </div>
 
@@ -238,18 +238,11 @@ a:hover{border-bottom-color:var(--accent);opacity:.85}
     <div class="proj-role">Core Developer · Tsinghua SIGS ·
       <a href="https://scholar.google.com/citations?user=oSirrKAAAAAJ&hl">Prof. Shiguang Ni</a></div>
     <p class="proj-desc">
-      Designed and implemented the full algorithm and system pipeline for multimodal depression
-      recognition, targeting populations in enclosed, high-pressure environments.
-      <br><br>
-      <strong>Algorithm:</strong> Built a 1,565-dim tri-modal feature space (OpenFace 709 + OpenSmile 88
-      + BERT 768), designed a BiLSTM + Transformer cross-modal attention fusion architecture,
-      achieving 95.8% patient-level accuracy and PHQ-9 regression (R²=0.63).
-      Extended to four modalities (adding physiological signals HRV/EDA/skin temp) with a dedicated
-      temporal encoder and bidirectional cross-attention paths.
-      <br><br>
-      <strong>Engineering:</strong> Built end-to-end from data collection pipeline and PyTorch model
-      training to Vue3 + Electron + Flask full-stack deployment, supporting offline LAN operation and
-      real-time multimodal inference. Validated in real-world deployment.
+      Designed and built the full pipeline for multimodal depression recognition targeting
+      high-pressure environments — from tri-modal feature extraction and cross-modal attention
+      fusion to offline full-stack deployment. Achieved <strong>95.8% patient-level accuracy</strong>
+      and PHQ-9 regression (R²=0.63); extended to four modalities with physiological signals.
+      Validated in real-world deployment.
     </p>
   </div>
 
@@ -294,7 +287,7 @@ a:hover{border-bottom-color:var(--accent);opacity:.85}
     <p class="proj-desc">
       An open-source tutorial for the OpenClaw AI Agent system — from usage guide to source-level
       architecture analysis (ReAct loop, tool system, message loop, security sandbox).
-      <a href="https://github.com/datawhalechina/hello-claw">→ repo</a>
+      <a href="https://github.com/datawhalechina/hello-claw">→ Repo</a>
     </p>
   </div>
 </div>
