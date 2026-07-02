@@ -88,10 +88,12 @@ a:hover{border-bottom-color:var(--accent);opacity:.85}
 /* ── bio ── */
 .bio{
   font-family:'Newsreader',serif;
-  font-size:18px;
+  font-size:17px;
   line-height:1.7;
   font-weight:400;
 }
+.bio p{text-wrap:balance}
+.nowrap{white-space:nowrap}
 .bio p+p{margin-top:14px}
 .bio em{font-family:'Newsreader',serif;font-style:italic}
 .bio p, .proj-desc p, .proj-role{
@@ -199,14 +201,15 @@ a:hover{border-bottom-color:var(--accent);opacity:.85}
 <div class="section">
   <div class="bio">
     <p>
-      I'm a Master's student in Electronic Information at Tsinghua University (2025–2028),
+      I'm a Master's student in Electronic Information at Tsinghua University <span class="nowrap">(2025–2028)</span>,
       doing <strong>JEPA-based world model</strong> research in
       <a href="https://scholar.google.com/citations?user=61b6eYkAAAAJ">Prof. Qi Tian</a>'s group at
-      Huawei&nbsp;AI&nbsp;Innovation&nbsp;Lab.
+      Huawei AI Innovation Lab.
     </p>
     <p>
       Before pivoting to JEPA: a B.Eng. in Software Engineering from Sun Yat-sen University
-      (2020–2024), then multimodal emotion recognition research with&nbsp;<a href="https://scholar.google.com/citations?user=oSirrKAAAAAJ&hl">Prof. Shiguang&nbsp;Ni</a>&nbsp;at
+      <span class="nowrap">(2020–2024)</span>, then multimodal emotion recognition with
+      <a href="https://scholar.google.com/citations?user=oSirrKAAAAAJ&hl">Prof. Shiguang Ni</a> at
       Tsinghua SIGS.
     </p>
   </div>
